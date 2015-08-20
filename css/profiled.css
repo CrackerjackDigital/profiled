@@ -1,0 +1,38 @@
+.profiled-tab-body {
+    display: none;
+}
+
+.profiled-tab-body.current {
+    display: block;
+}
+
+nav.profiled-nav .script {
+    margin: 10px 0
+}
+
+nav.profiled-nav h5 {
+    float: left;
+    padding: 0 15px;
+}
+
+nav.profiled-nav ul {
+    float: right;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+nav.profiled-nav li {
+    margin: 0;
+    display: inline;
+}
+
+nav.profiled-nav li a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: 400;
+}
+nav.profiled-nav li.current a {
+    text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+{
+    "name": "crackerjackdigital/silverstripe-profiled",
+    "type": "silverstripe-module",
+    "description": "Simple Member Profile Management for SilverStripe",
+    "homepage": "http://www.crackerjack.net.nz/",
+    "license": "BSD-3-Clause",
+    "keywords": ["silverstripe", "swipestripe", "member", "profile", "registration"],
+    "authors": [
+        {
+            "name": "Steve Wake",
+            "homepage": "https://github.com/wakes"
+        },
+        {
+            "name": "CrackerJack Digital",
+            "homepage": "http://www.crackerjack.net.nz/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "composer/installers": "*",
+        "silverstripe/framework": "3.1.*"
+    },
+    "extra": {
+        "installer-name": "profiled"
+    },
+    "minimum-stability": "dev"
+}

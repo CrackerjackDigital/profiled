@@ -1,0 +1,17 @@
+---
+Name: profiled-config
+---
+Injector:
+  ProfiledMemberClass: Member
+Member:
+  extensions:
+    - ProfiledMemberExtension
+ProfiledPage:
+  extensions:
+    - ProfiledPageExtension
+ProfiledPage_Controller:
+  extensions:
+    - ProfiledControllerExtension
+ProfiledControllerExtension:
+  post_register_url: ''
+  post_verify_url: '/Security/login'

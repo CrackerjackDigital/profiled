@@ -1,0 +1,24 @@
+en:
+  ProfiledBuild:
+    ProfiledPageTitle: 'Profile'
+  ProfiledSiteConfigExtension:
+    MemberRegisterSubjectLabel: 'Member registration email subject'
+    MemberUpdateSubjectLabel: 'Member update email subject'
+    MemberVerifySubjectLabel: 'Member acount activated email subject'
+    AdminRegisterSubjectLabel: 'Admin registration email subject'
+    AdminUpdateSubjectLabel: 'Admin member updated email subject'
+    AdminVerifySubjectLabel: 'Admin member account activated email subject'
+    SendEmailFromLabel: 'Send emails from'
+    AdminEmailLabel: 'Send admin emails (notifications) to'
+  ProfiledMemberForm:
+    RegisterThanks: "Thank you for registering, we will send an email to {Email} with a link to verify your account"
+    VerifyOK: "Your account has been activated"
+    VerificationFailed: "Sorry, there is something wrong with that link, please try again"
+    ProfileUpdated: "Profile updated"
+  ProfiledEmail:
+    MemberRegisterSubject: 'Registration activation link'
+    MemberUpdateSubject: 'Your account has been updated'
+    MemberVerifySubject: 'Thank you for activating your account'
+    AdminRegisterSubject: 'A new member has registered'
+    AdminUpdateSubject: 'A member has updated their account'
+    AdminVerifySubject: 'A member has activated their account'
